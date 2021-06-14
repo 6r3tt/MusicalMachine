@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/dahop/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
-const token string = "NjEyMzMxNjExMjA3MzY4NzYx.XVg0QA.3VDDI1U8zOx84y94EHMTxlApKNs"
+const token string = "NjEyMzMxNjExMjA3MzY4NzYx.XVg0QA.NU7rfhDpYIdeS1C8_Wr5kmmv5RQ"
 
-var BotID string = ""
+var BotID string = "612331611207368761"
 
 func main() {
 	dg, err := discordgo.New("Bot " + token)
